@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import CoreData
+
+class SongController {
+    
+    // MARK: - CRUD Functions
+    static func createSongWith(title: String, artist: String, playlist: Playlist) {
+        let newSong = Song(artist: artist, title: title, playlist: playlist)
+        PlaylistController.shared.saveToPersistence()
+    }
+    
+    static func deleteSong(song: Song) {
+        if let moc = song.managedObjectContext {
+            moc.delete(song)
+        }
+    }
+}

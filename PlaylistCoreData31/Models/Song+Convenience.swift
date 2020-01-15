@@ -11,9 +11,10 @@ import CoreData
 
 extension Song {
     
-    convenience init(artist: String, title: String, context: NSManagedObjectContext = CoreDataStack.context) {
+    convenience init(artist: String, title: String, playlist: Playlist, context: NSManagedObjectContext = CoreDataStack.context) {
         self.init(context: context)
-        self.artist = artist
-        self.title  = title
+        self.artist   = artist
+        self.title    = title
+        self.playlist = playlist
     }
 }

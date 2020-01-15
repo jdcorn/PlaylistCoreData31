@@ -11,7 +11,7 @@
 import Foundation
 import CoreData
 
-// MARK: - class
+// MARK: - Class
 class PlaylistController {
     
     // Properties
