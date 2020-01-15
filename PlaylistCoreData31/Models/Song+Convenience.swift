@@ -1,5 +1,5 @@
 //
-//  Playlist+Convenience.swift
+//  Song+Convenience.swift
 //  PlaylistCoreData31
 //
 //  Created by Jon Corn on 1/15/20.
@@ -7,9 +7,3 @@
 //
 
 import Foundation
-import CoreData
-
-extension Playlist {
-    
-    convenience init(name: String, context: )
-}
