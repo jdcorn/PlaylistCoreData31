@@ -11,5 +11,8 @@ import CoreData
 
 extension Playlist {
     
-    convenience init(name: String, context: )
+    convenience init(name: String, context: NSManagedObjectContext = CoreDataStack.context) {
+        self.init(context: context)
+        self.name = name
+    }
 }

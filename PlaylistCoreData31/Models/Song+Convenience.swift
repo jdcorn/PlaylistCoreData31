@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import CoreData
+
+extension Song {
+    
+    convenience init(artist: String, title: String, context: NSManagedObjectContext = CoreDataStack.context) {
+        self.init(context: context)
+        self.artist = artist
+        self.title  = title
+    }
+}

@@ -15,6 +15,7 @@
 		6D85CE7D23CF83BD006DC06C /* PlaylistCoreData31.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D85CE7B23CF83BD006DC06C /* PlaylistCoreData31.xcdatamodeld */; };
 		6D85CE7F23CF8729006DC06C /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85CE7E23CF8729006DC06C /* Playlist+Convenience.swift */; };
 		6D85CE8123CF87FB006DC06C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85CE8023CF87FB006DC06C /* CoreDataStack.swift */; };
+		6D85CE8323CF8978006DC06C /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85CE8223CF8978006DC06C /* Song+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6D85CE7C23CF83BD006DC06C /* PlaylistCoreData31.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistCoreData31.xcdatamodel; sourceTree = "<group>"; };
 		6D85CE7E23CF8729006DC06C /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		6D85CE8023CF87FB006DC06C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6D85CE8223CF8978006DC06C /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				6D85CE7B23CF83BD006DC06C /* PlaylistCoreData31.xcdatamodeld */,
 				6D85CE7E23CF8729006DC06C /* Playlist+Convenience.swift */,
 				6D85CE8023CF87FB006DC06C /* CoreDataStack.swift */,
+				6D85CE8223CF8978006DC06C /* Song+Convenience.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				6D85CE8123CF87FB006DC06C /* CoreDataStack.swift in Sources */,
 				6D85CE6023CF8272006DC06C /* AppDelegate.swift in Sources */,
+				6D85CE8323CF8978006DC06C /* Song+Convenience.swift in Sources */,
 				6D85CE6223CF8272006DC06C /* SceneDelegate.swift in Sources */,
 				6D85CE7D23CF83BD006DC06C /* PlaylistCoreData31.xcdatamodeld in Sources */,
 				6D85CE7F23CF8729006DC06C /* Playlist+Convenience.swift in Sources */,
